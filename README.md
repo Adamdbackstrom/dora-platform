@@ -2,6 +2,8 @@
 
 DORA Metrics pipeline for Backstage — visualizes Deployment Frequency, Lead Time for Changes, Change Failure Rate, and Time to Restore from GitHub using a custom ingest service, Prometheus, and Grafana.
 
+![dora-in-backstage](docs/images/dora-in-backstage.png)
+
 ## Architecture
 
 ```
