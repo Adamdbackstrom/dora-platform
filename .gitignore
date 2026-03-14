@@ -1,0 +1,4 @@
+node_modules/
+.env
+prometheus_data/
+grafana_data/

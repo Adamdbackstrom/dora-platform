@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 60s
+  evaluation_interval: 60s
+
+scrape_configs:
+  - job_name: 'dora-ingest'
+    static_configs:
+      - targets: ['dora-ingest:8080']
